@@ -1,86 +1,12 @@
 [
 {
-  "host": "splunk.scavengers-repo.com",
-  "port": 443,
-  "protocol": "http",
-  "isPublic": false,
-  "status": "READY",
-  "startTime": 1576958498365,
-  "testTime": 1576958503588,
-  "engineVersion": "1.36.3",
-  "criteriaVersion": "2009q",
-  "cacheExpiryTime": 1576959103588,
-  "endpoints": [
-    {
-      "ipAddress": "165.227.53.210",
-      "serverName": "splunk2.ashina",
-      "statusMessage": "Unable to connect to the server",
-      "statusDetails": "TESTING_PROTO_2_0",
-      "statusDetailsMessage": "Testing SSL 2.0",
-      "duration": 6,
-      "delegation": 1,
-      "details": {
-        "hostStartTime": 1576958498365,
-        "certChains": [],
-        "protocols": [],
-        "prefixDelegation": false,
-        "nonPrefixDelegation": true,
-        "zombiePoodle": 0,
-        "goldenDoodle": 0,
-        "zeroLengthPaddingOracle": 0,
-        "sleepingPoodle": 0,
-        "zeroRTTEnabled": -1
-      }
-    }
-  ],
-  "certs": []
-}
-,
-{
-  "host": "artofjoseph.jmstudios.net",
-  "port": 443,
-  "protocol": "http",
-  "isPublic": false,
-  "status": "READY",
-  "startTime": 1576958496163,
-  "testTime": 1576958511191,
-  "engineVersion": "1.36.3",
-  "criteriaVersion": "2009q",
-  "cacheExpiryTime": 1576959111191,
-  "endpoints": [
-    {
-      "ipAddress": "13.57.230.204",
-      "serverName": "ec2-13-57-230-204.us-west-1.compute.amazonaws.com",
-      "statusMessage": "Unable to connect to the server",
-      "statusDetails": "TESTING_PROTO_2_0",
-      "statusDetailsMessage": "Testing SSL 2.0",
-      "duration": 15016,
-      "delegation": 1,
-      "details": {
-        "hostStartTime": 1576958496163,
-        "certChains": [],
-        "protocols": [],
-        "prefixDelegation": false,
-        "nonPrefixDelegation": true,
-        "zombiePoodle": 0,
-        "goldenDoodle": 0,
-        "zeroLengthPaddingOracle": 0,
-        "sleepingPoodle": 0,
-        "zeroRTTEnabled": -1
-      }
-    }
-  ],
-  "certs": []
-}
-,
-{
   "host": "scavengers-repo.com",
   "port": 443,
   "protocol": "http",
   "isPublic": false,
   "status": "READY",
-  "startTime": 1576958495054,
-  "testTime": 1576958533023,
+  "startTime": 1577647778829,
+  "testTime": 1577647817005,
   "engineVersion": "1.36.3",
   "criteriaVersion": "2009q",
   "endpoints": [
@@ -92,10 +18,10 @@
       "hasWarnings": false,
       "isExceptional": false,
       "progress": 100,
-      "duration": 37853,
+      "duration": 38138,
       "delegation": 1,
       "details": {
-        "hostStartTime": 1576958495054,
+        "hostStartTime": 1577647778829,
         "certChains": [
           {
             "id": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9",
@@ -1499,25 +1425,25 @@
             "source": "Chrome",
             "hostname": "scavengers-repo.com",
             "status": "absent",
-            "sourceTime": 1576955461340
+            "sourceTime": 1577646421383
           },
           {
             "source": "Edge",
             "hostname": "scavengers-repo.com",
             "status": "absent",
-            "sourceTime": 1576955463562
+            "sourceTime": 1577646301131
           },
           {
             "source": "Firefox",
             "hostname": "scavengers-repo.com",
             "status": "absent",
-            "sourceTime": 1576955463562
+            "sourceTime": 1577646301131
           },
           {
             "source": "IE",
             "hostname": "scavengers-repo.com",
             "status": "absent",
-            "sourceTime": 1576955463562
+            "sourceTime": 1577646301131
           }
         ],
         "hpkpPolicy": {
@@ -1553,7 +1479,7 @@
             "responseLine": "HTTP/1.1 200 OK",
             "responseHeadersRaw": [
               "Server: nginx/1.14.0 (Ubuntu)",
-              "Date: Sat, 21 Dec 2019 20:01:38 GMT",
+              "Date: Sun, 29 Dec 2019 19:29:42 GMT",
               "Content-Type: text/html",
               "Content-Length: 2913",
               "Last-Modified: Sat, 23 Nov 2019 23:35:12 GMT",
@@ -1568,7 +1494,7 @@
               },
               {
                 "name": "Date",
-                "value": "Sat, 21 Dec 2019 20:01:38 GMT"
+                "value": "Sun, 29 Dec 2019 19:29:42 GMT"
               },
               {
                 "name": "Content-Type",

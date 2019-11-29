@@ -1,0 +1,104 @@
+#!/usr/bin/python
+import json
+import md5
+import sys
+import time
+
+from pprint import pprint
+import datetime
+
+with sys.stdin as json_data:
+        try:
+                data = json.load(json_data)
+        except:
+                print "Error: no JSON data received!"
+                exit(1)
+for site in data:
+
+        status = site['status']
+	###Main bit of information
+        endpoints = site['endpoints']
+        protocol = site['protocol']
+        criteriaVersion = site['criteriaVersion']
+        isPublic = site['isPublic']
+        endpoints = site['endpoints']
+	certs = site['certs']
+
+
+	print("\nNow Scanning %s ---------------\n---------------" % site['host'])
+	
+	for i in endpoints:
+		#print(i.keys())
+		
+		print("IP Address: %s " % i['ipAddress'])	
+		print("Grade: %s " % i['grade'])
+		print("HTTP Status Code: %s " % i['details']['httpStatusCode'])
+		print("serverSignature: %s" % i['details']['serverSignature'])
+		timenotAfter = time.gmtime(site['certs'][0]['notAfter']/1000.0)
+		print("Expires: %s" % time.strftime('%Y-%m-%dT%H:%M:%SZ', timenotAfter))		
+		
+	
+		#details = i['details']
+		#for keys in details:
+		#	print(keys)
+		#print("certchains are %s " % details['certChains'])
+		#print details['suites']
+	for i in certs:
+		print("\n")
+#		print(type(i))
+		print(i.keys())
+		try:
+			print(i['commonNames'])
+			print(i['ocspURIs'])
+			
+			print(i['keySize'])
+
+
+
+			
+			print("not before")
+			notBeforeobj = i['notBefore']
+			print(notBeforeobj)
+
+			print(type(notBeforeobj))
+			print("now converting to dateobj?")
+			timeobj = time.gmtime(notBeforeobj/1000.0)
+
+			print("certExp is a converted time?")
+			print(timeobj)
+			easierformat = timeobj
+			print(type(easierformat))
+			print("hmm strftime")
+			print(time.strftime('%Y-%m-%dT%H:%M:%SZ', easierformat))
+
+
+
+
+			print("not after")
+			print(i['notAfter'])	
+			notAfter = i['notAfter']
+			timenotAfter = time.gmtime(notAfter/1000.0)
+			timenotAfter = time.strftime('%Y-%m-%dT%H:%M:%SZ', timenotAfter)
+			print("expires?")
+			print(timenotAfter)
+
+
+
+		except: 
+			print("doesn't have that field")
+		#print("IP Address: %s " % i['ipAddress'])
+			
+
+
+       # certExp = time.ctime(int(endpoints[0]['details']['cert']['notAfter']/1000))
+        #certRaw = endpoints[0]['details']['chain']['certs'][0]['raw']
+        #certMD5 = md5.new(certRaw).hexdigest()
+        #print "Site: %s:%s, Grade: %s, CertIssuer: %s, CertExpiration: %s CertMD5: %s" % (
+         #       site['host'],
+          #      site['port'],
+
+           #     endpoints[0]['grade'],
+            #    endpoints[0]['details']['cert']['issuerLabel'],
+             #   time.ctime(int(endpoints[0]['details']['cert']['notAfter']/1000)),
+              #  certMD5
+     #   )
