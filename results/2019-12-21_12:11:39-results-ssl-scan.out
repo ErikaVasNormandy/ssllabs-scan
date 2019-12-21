@@ -1,0 +1,1292 @@
+["cacheExpiryTime": 1576959703646
+ "criteriaVersion": "2009q"
+ "endpoints.0.delegation": 1
+ "endpoints.0.details.goldenDoodle": 0
+ "endpoints.0.details.hostStartTime": 1576959103627
+ "endpoints.0.details.nonPrefixDelegation": true
+ "endpoints.0.details.prefixDelegation": false
+ "endpoints.0.details.sleepingPoodle": 0
+ "endpoints.0.details.zeroLengthPaddingOracle": 0
+ "endpoints.0.details.zeroRTTEnabled": -1
+ "endpoints.0.details.zombiePoodle": 0
+ "endpoints.0.duration": 5
+ "endpoints.0.ipAddress": "165.227.53.210"
+ "endpoints.0.serverName": "splunk2.ashina"
+ "endpoints.0.statusDetails": "TESTING_PROTO_2_0"
+ "endpoints.0.statusDetailsMessage": "Testing SSL 2.0"
+ "endpoints.0.statusMessage": "Unable to connect to the server"
+ "engineVersion": "1.36.3"
+ "host": "splunk.scavengers-repo.com"
+ "isPublic": false
+ "port": 443
+ "protocol": "http"
+ "startTime": 1576959103627
+ "status": "READY"
+ "testTime": 1576959103646
+]
+["certs.0.altNames.0": "scavengers-repo.com"
+ "certs.0.altNames.1": "www.scavengers-repo.com"
+ "certs.0.commonNames.0": "scavengers-repo.com"
+ "certs.0.crlRevocationStatus": 4
+ "certs.0.dnsCaa": false
+ "certs.0.id": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "certs.0.issuerSubject": "CN=Let's Encrypt Authority X3, O=Let's Encrypt, C=US"
+ "certs.0.issues": 0
+ "certs.0.keyAlg": "RSA"
+ "certs.0.keyKnownDebianInsecure": false
+ "certs.0.keySize": 2048
+ "certs.0.keyStrength": 2048
+ "certs.0.mustStaple": false
+ "certs.0.notAfter": 1579150211000
+ "certs.0.notBefore": 1571374211000
+ "certs.0.ocspRevocationStatus": 2
+ "certs.0.ocspURIs.0": "http://ocsp.int-x3.letsencrypt.org"
+ "certs.0.pinSha256": "0vuBdHTGP27HqoRNjaa4bv/finDFQQCyek/Ya/NBiJM="
+ "certs.0.raw": "-----BEGIN CERTIFICATE-----
+MIIFdzCCBF+gAwIBAgISAwMUiqyqdx7ZOXaJlYxZVcJSMA0GCSqGSIb3DQEBCwUAMEoxCzAJBgNV
+BAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MSMwIQYDVQQDExpMZXQncyBFbmNyeXB0IEF1
+dGhvcml0eSBYMzAeFw0xOTEwMTgwNDUwMTFaFw0yMDAxMTYwNDUwMTFaMB4xHDAaBgNVBAMTE3Nj
+YXZlbmdlcnMtcmVwby5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDfTFTNf5EH
+q/BqdTKqQsXvdSo5arsCmvRcFToSc7eWE9F8fjp6uOnbT6whX9e4d4L62CDru8ytgm7N/BA88unT
+Hqq362LAGFSawtl5P5Lb7t+f3QhOacy6ftf0JSMOYLhuBlSWEniVE+G9qcsNsITUqdFderH0lQ7t
+QdEhSSaKGjOj8JFHjwSZDR8GKjMscpfMxFTbjKvRa7DXmzkcFHPkrqeWrTtQEvk1ECtWuy9ITaTO
+dLYtbo3GgxVhhCuq17H+bXvwyzXbycVGGlGF3+ByIGu4OMfcZim//mqoOZY8jFm9Jg6rVO1hkRm+
+SnPB1V+LUKzJKsccSunw4c0DGzAdAgMBAAGjggKBMIICfTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0l
+BBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFA4QO9CoGOMK
+wnPnTcheOTdKW4p9MB8GA1UdIwQYMBaAFKhKamMEfd265tE5t6ZFZe/zqOyhMG8GCCsGAQUFBwEB
+BGMwYTAuBggrBgEFBQcwAYYiaHR0cDovL29jc3AuaW50LXgzLmxldHNlbmNyeXB0Lm9yZzAvBggr
+BgEFBQcwAoYjaHR0cDovL2NlcnQuaW50LXgzLmxldHNlbmNyeXB0Lm9yZy8wNwYDVR0RBDAwLoIT
+c2NhdmVuZ2Vycy1yZXBvLmNvbYIXd3d3LnNjYXZlbmdlcnMtcmVwby5jb20wTAYDVR0gBEUwQzAI
+BgZngQwBAgEwNwYLKwYBBAGC3xMBAQEwKDAmBggrBgEFBQcCARYaaHR0cDovL2Nwcy5sZXRzZW5j
+cnlwdC5vcmcwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdQCyHgXMi6LNiiBOh2b5K7mKJSBna9r6
+cOeySVMt74uQXgAAAW3dapH3AAAEAwBGMEQCIC2dttFUc+IGS76FJ/KbwP1SCT5+LC8cKfRnzIvc
+SEWnAiBmg268BNRCH8CV9gHmZaYlHIlGtpVjnxWkO8jcgQb5lgB3AF6nc/nfVsDntTZIfdBJ4DJ6
+kZoMhKESEoQYdZaBcUVYAAABbd1qleQAAAQDAEgwRgIhAN1FRzDvOeHKW6rMYDUJzly+F1hz0/vc
+6FS3ZnWlTZo1AiEAzZbjOzD8GYW7U3Bru8lBsmgK+CRwPKW+8Gnn6FO4YGYwDQYJKoZIhvcNAQEL
+BQADggEBAFILFo4puk04jRr+dO+M3uhReSv4yBht5ZHT07wzTQ2+EI4UYhsYZGiU6ebfAj7mA6As
+TFll3rJWLKqR9/UBc1nBals+MVf4OYqIn+KQar+9jHbkfMbhpTrUlw8DmFTQZmNGnK5GcSZz8jCw
+dm3DzytwsGy21qLQn8vXRMs9+HDq1gGtDfdb/P1VVftb2pEzMWLxVFjnAw0wjX/izBA3vjpRuGNw
+n06jUBdp39C4yiVoUggRkgaa6iPb8SSOj87nQjqIrA3z7cwQwyeKTnsFmcz9zbD/KWXoIfNrovZR
+0c7NGV1JnQZCrRTqLfN/RXdFMufHIyGntKGho0xiMB2jkbo=
+-----END CERTIFICATE-----
+"
+ "certs.0.revocationInfo": 2
+ "certs.0.revocationStatus": 2
+ "certs.0.sct": true
+ "certs.0.serialNumber": "0303148aacaa771ed9397689958c5955c252"
+ "certs.0.sgc": 0
+ "certs.0.sha1Hash": "590d095336c51fb32657032ec10088cbccd4034d"
+ "certs.0.sha256Hash": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "certs.0.sigAlg": "SHA256withRSA"
+ "certs.0.subject": "CN=scavengers-repo.com"
+ "certs.1.commonNames.0": "Let's Encrypt Authority X3"
+ "certs.1.crlRevocationStatus": 2
+ "certs.1.crlURIs.0": "http://crl.identrust.com/DSTROOTCAX3CRL.crl"
+ "certs.1.id": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "certs.1.issuerSubject": "CN=DST Root CA X3, O=Digital Signature Trust Co."
+ "certs.1.issues": 0
+ "certs.1.keyAlg": "RSA"
+ "certs.1.keyKnownDebianInsecure": false
+ "certs.1.keySize": 2048
+ "certs.1.keyStrength": 2048
+ "certs.1.mustStaple": false
+ "certs.1.notAfter": 1615999246000
+ "certs.1.notBefore": 1458232846000
+ "certs.1.ocspRevocationStatus": 2
+ "certs.1.ocspURIs.0": "http://isrg.trustid.ocsp.identrust.com"
+ "certs.1.pinSha256": "YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg="
+ "certs.1.raw": "-----BEGIN CERTIFICATE-----
+MIIEkjCCA3qgAwIBAgIQCgFBQgAAAVOFc2oLheynCDANBgkqhkiG9w0BAQsFADA/MSQwIgYDVQQK
+ExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMTDkRTVCBSb290IENBIFgzMB4X
+DTE2MDMxNzE2NDA0NloXDTIxMDMxNzE2NDA0NlowSjELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUxl
+dCdzIEVuY3J5cHQxIzAhBgNVBAMTGkxldCdzIEVuY3J5cHQgQXV0aG9yaXR5IFgzMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnNMM8FrlLke3cl03g7NoYzDq1zUmGSXhvb418XCSL7e4
+S0EFq6meNQhY7LEqxGiHC6PjdeTm86dicbp5gWAf15Gan/PQeGdxyGkOlZHP/uaZ6WA8SMx+yk13
+EiSdRxta67nsHjcAHJyse6cF6s5K671B5TaYucv9bTyWaN8jKkKQDIZ0Z8h/pZq4UmEUEz9l6YKH
+y9v6Dlb2honzhT+Xhq+w3Brvaw2VFn3EK6BlspkENnWAa6xK8xuQSXgvopZPKiAlKQTGdMDQMc2P
+MTiVFrqoM7hD8bEfwzB/onkxEz0tNvjj/PIzark5McWvxI0NHWQWM6r6hCm21AvA2H3DkwIDAQAB
+o4IBfTCCAXkwEgYDVR0TAQH/BAgwBgEB/wIBADAOBgNVHQ8BAf8EBAMCAYYwfwYIKwYBBQUHAQEE
+czBxMDIGCCsGAQUFBzABhiZodHRwOi8vaXNyZy50cnVzdGlkLm9jc3AuaWRlbnRydXN0LmNvbTA7
+BggrBgEFBQcwAoYvaHR0cDovL2FwcHMuaWRlbnRydXN0LmNvbS9yb290cy9kc3Ryb290Y2F4My5w
+N2MwHwYDVR0jBBgwFoAUxKexpHsscfrb4UuQdf/EFWCFiRAwVAYDVR0gBE0wSzAIBgZngQwBAgEw
+PwYLKwYBBAGC3xMBAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL2Nwcy5yb290LXgxLmxldHNlbmNy
+eXB0Lm9yZzA8BgNVHR8ENTAzMDGgL6AthitodHRwOi8vY3JsLmlkZW50cnVzdC5jb20vRFNUUk9P
+VENBWDNDUkwuY3JsMB0GA1UdDgQWBBSoSmpjBH3duubRObemRWXv86jsoTANBgkqhkiG9w0BAQsF
+AAOCAQEA3TPXEfNjWDjdGBX7CVW+dla5cEilaUcne8IkCJLxWh9KEik3JHRRHGJouM2VcGfl96S8
+TihRzZvoroed6ti6WqEBmtzw3Wodatg+VyOeph4EYpr/1wXKtx8/wApIvJSwtmVi4MFU5aMqrSDE
+6ea73Mj2tcMyo5jMd6jmeWUHK8so/joWUoHOUgwuX4Po1QYz+3dszkDqMp4fklxBwXRsW10KXzPM
+TZ+sOPAveyxindmjkW8lGy+QsRlGPfZ+G6Z6h7mjem0Y+iWlkYcV4PIWL1iwBi8saCbGS5jN2p8M
++X+Q7UNKEkROb3N6KOqkqm57TH2H3eDJAkSnh6/DNFu0Qg==
+-----END CERTIFICATE-----
+"
+ "certs.1.revocationInfo": 3
+ "certs.1.revocationStatus": 2
+ "certs.1.sct": false
+ "certs.1.serialNumber": "0a0141420000015385736a0b85eca708"
+ "certs.1.sgc": 0
+ "certs.1.sha1Hash": "e6a3b45b062d509b3382282d196efe97d5956ccb"
+ "certs.1.sha256Hash": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "certs.1.sigAlg": "SHA256withRSA"
+ "certs.1.subject": "CN=Let's Encrypt Authority X3, O=Let's Encrypt, C=US"
+ "certs.2.commonNames.0": "DST Root CA X3"
+ "certs.2.crlRevocationStatus": 0
+ "certs.2.id": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "certs.2.issuerSubject": "CN=DST Root CA X3, O=Digital Signature Trust Co."
+ "certs.2.issues": 256
+ "certs.2.keyAlg": "RSA"
+ "certs.2.keyKnownDebianInsecure": false
+ "certs.2.keySize": 2048
+ "certs.2.keyStrength": 2048
+ "certs.2.mustStaple": false
+ "certs.2.notAfter": 1633010475000
+ "certs.2.notBefore": 970348339000
+ "certs.2.ocspRevocationStatus": 0
+ "certs.2.pinSha256": "Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys="
+ "certs.2.raw": "-----BEGIN CERTIFICATE-----
+MIIDSjCCAjKgAwIBAgIQRK+wgNajJ7qJMDmGLvhAazANBgkqhkiG9w0BAQUFADA/MSQwIgYDVQQK
+ExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMTDkRTVCBSb290IENBIFgzMB4X
+DTAwMDkzMDIxMTIxOVoXDTIxMDkzMDE0MDExNVowPzEkMCIGA1UEChMbRGlnaXRhbCBTaWduYXR1
+cmUgVHJ1c3QgQ28uMRcwFQYDVQQDEw5EU1QgUm9vdCBDQSBYMzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAN+v6ZdQCINXtMxiZfaQguzH0yxrMMpb7NnDfcdAwRgUi+DoM3ZJKuM/IUmT
+rE4Orz5Iy2Xu/NMhD2XSKtkyj4zl93ewEnu1lcCJo6m67XMuegwGMoOifooUMM0RoOEqOLl5CjH9
+UL2AZd+3UWODyOKIYepLYYHsUmu5ouJLGiifSKOeDNoJjj4XLh7dIN9bxiqKqy69cK3FCxolkHRy
+xXtqqzTWMIn/5WgTe1QLyNau7Fqckh49ZLOMxt+/yUFw7BZy1SbsOFU5Q9D8/RhcQPGX69Wam40d
+utolucbY38EVAjqr2m7xPi71XAicPNaDaeQQmxkqtilX4+U9m5/wAl0CAwEAAaNCMEAwDwYDVR0T
+AQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFMSnsaR7LHH62+FLkHX/xBVghYkQ
+MA0GCSqGSIb3DQEBBQUAA4IBAQCjGiybFwBcqR7uKGY3Or+Dxz9LwwmglSBd49lZRNI+DT69ikug
+dB/OEIKcdBodfpga3csTS7MgROSR6cz8faXbauX+5v3gTt23ADq1cEmv8uXrAvHRAosZy5Q6XkjE
+GB5YGV8eAlrwDPGxrancWYaLbumR9YbK+rlmM6pZW87ipxZzR8srzJmwN0jP41ZL9c8PDHIyh8bw
+RLtTcm1D9SZImlJnt1ir/md2cXjbDaJWFBM5JDGFoqgCWjBH4d1QB7wCCZAA62RjYJsWvIjJEubS
+fZGL+T0yjWW06XyxV3bqxbYoOb8VZRzI9neWagqNdwvYkQsEjgfbKbYK7p2CNTUQ
+-----END CERTIFICATE-----
+"
+ "certs.2.revocationInfo": 0
+ "certs.2.revocationStatus": 0
+ "certs.2.sct": false
+ "certs.2.serialNumber": "44afb080d6a327ba893039862ef8406b"
+ "certs.2.sgc": 0
+ "certs.2.sha1Hash": "dac9024f54d8f6df94935fb1732638ca6ad77c13"
+ "certs.2.sha256Hash": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "certs.2.sigAlg": "SHA1withRSA"
+ "certs.2.subject": "CN=DST Root CA X3, O=Digital Signature Trust Co."
+ "criteriaVersion": "2009q"
+ "endpoints.0.delegation": 1
+ "endpoints.0.details.alpnProtocols": "http/1.1"
+ "endpoints.0.details.bleichenbacher": 1
+ "endpoints.0.details.certChains.0.certIds.0": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "endpoints.0.details.certChains.0.certIds.1": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "endpoints.0.details.certChains.0.id": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.certChains.0.issues": 0
+ "endpoints.0.details.certChains.0.noSni": false
+ "endpoints.0.details.certChains.0.trustPaths.0.certIds.0": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "endpoints.0.details.certChains.0.trustPaths.0.certIds.1": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "endpoints.0.details.certChains.0.trustPaths.0.certIds.2": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "endpoints.0.details.certChains.0.trustPaths.0.trust.0.isTrusted": true
+ "endpoints.0.details.certChains.0.trustPaths.0.trust.0.rootStore": "Mozilla"
+ "endpoints.0.details.certChains.0.trustPaths.1.certIds.0": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "endpoints.0.details.certChains.0.trustPaths.1.certIds.1": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "endpoints.0.details.certChains.0.trustPaths.1.certIds.2": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "endpoints.0.details.certChains.0.trustPaths.1.trust.0.isTrusted": true
+ "endpoints.0.details.certChains.0.trustPaths.1.trust.0.rootStore": "Apple"
+ "endpoints.0.details.certChains.0.trustPaths.2.certIds.0": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "endpoints.0.details.certChains.0.trustPaths.2.certIds.1": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "endpoints.0.details.certChains.0.trustPaths.2.certIds.2": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "endpoints.0.details.certChains.0.trustPaths.2.trust.0.isTrusted": true
+ "endpoints.0.details.certChains.0.trustPaths.2.trust.0.rootStore": "Android"
+ "endpoints.0.details.certChains.0.trustPaths.3.certIds.0": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "endpoints.0.details.certChains.0.trustPaths.3.certIds.1": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "endpoints.0.details.certChains.0.trustPaths.3.certIds.2": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "endpoints.0.details.certChains.0.trustPaths.3.trust.0.isTrusted": true
+ "endpoints.0.details.certChains.0.trustPaths.3.trust.0.rootStore": "Java"
+ "endpoints.0.details.certChains.0.trustPaths.4.certIds.0": "3bf7d8dc1f6e1467d76c37ce2cf5edf1e27b21260f3e0b3fcb67f73203c1b395"
+ "endpoints.0.details.certChains.0.trustPaths.4.certIds.1": "25847d668eb4f04fdd40b12b6b0740c567da7d024308eb6c2c96fe41d9de218d"
+ "endpoints.0.details.certChains.0.trustPaths.4.certIds.2": "0687260331a72403d909f105e69bcf0d32e1bd2493ffc6d9206d11bcd6770739"
+ "endpoints.0.details.certChains.0.trustPaths.4.trust.0.isTrusted": true
+ "endpoints.0.details.certChains.0.trustPaths.4.trust.0.rootStore": "Windows"
+ "endpoints.0.details.chaCha20Preference": false
+ "endpoints.0.details.compressionMethods": 0
+ "endpoints.0.details.drownErrors": false
+ "endpoints.0.details.drownVulnerable": false
+ "endpoints.0.details.ecdhParameterReuse": false
+ "endpoints.0.details.fallbackScsv": true
+ "endpoints.0.details.forwardSecrecy": 4
+ "endpoints.0.details.freak": false
+ "endpoints.0.details.goldenDoodle": 1
+ "endpoints.0.details.hasSct": 1
+ "endpoints.0.details.heartbeat": false
+ "endpoints.0.details.heartbleed": false
+ "endpoints.0.details.hostStartTime": 1576959101425
+ "endpoints.0.details.hpkpPolicy.status": "absent"
+ "endpoints.0.details.hpkpRoPolicy.status": "absent"
+ "endpoints.0.details.hstsPolicy.LONG_MAX_AGE": 15552000
+ "endpoints.0.details.hstsPolicy.status": "absent"
+ "endpoints.0.details.hstsPreloads.0.hostname": "scavengers-repo.com"
+ "endpoints.0.details.hstsPreloads.0.source": "Chrome"
+ "endpoints.0.details.hstsPreloads.0.sourceTime": 1576959121684
+ "endpoints.0.details.hstsPreloads.0.status": "absent"
+ "endpoints.0.details.hstsPreloads.1.hostname": "scavengers-repo.com"
+ "endpoints.0.details.hstsPreloads.1.source": "Edge"
+ "endpoints.0.details.hstsPreloads.1.sourceTime": 1576959123822
+ "endpoints.0.details.hstsPreloads.1.status": "absent"
+ "endpoints.0.details.hstsPreloads.2.hostname": "scavengers-repo.com"
+ "endpoints.0.details.hstsPreloads.2.source": "Firefox"
+ "endpoints.0.details.hstsPreloads.2.sourceTime": 1576959123822
+ "endpoints.0.details.hstsPreloads.2.status": "absent"
+ "endpoints.0.details.hstsPreloads.3.hostname": "scavengers-repo.com"
+ "endpoints.0.details.hstsPreloads.3.source": "IE"
+ "endpoints.0.details.hstsPreloads.3.sourceTime": 1576959123822
+ "endpoints.0.details.hstsPreloads.3.status": "absent"
+ "endpoints.0.details.httpStatusCode": 200
+ "endpoints.0.details.httpTransactions.0.fragileServer": false
+ "endpoints.0.details.httpTransactions.0.requestHeaders.0": "Host: scavengers-repo.com"
+ "endpoints.0.details.httpTransactions.0.requestHeaders.1": "User-Agent: SSL Labs (https://www.ssllabs.com/about/assessment.html); on behalf of XXX.XXX.XXX.XXX"
+ "endpoints.0.details.httpTransactions.0.requestHeaders.2": "Accept: */*"
+ "endpoints.0.details.httpTransactions.0.requestHeaders.3": "Connection: Close"
+ "endpoints.0.details.httpTransactions.0.requestLine": "GET / HTTP/1.1"
+ "endpoints.0.details.httpTransactions.0.requestUrl": "https://scavengers-repo.com/"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.0.name": "Server"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.0.value": "nginx/1.14.0 (Ubuntu)"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.1.name": "Date"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.1.value": "Sat, 21 Dec 2019 20:11:44 GMT"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.2.name": "Content-Type"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.2.value": "text/html"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.3.name": "Content-Length"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.3.value": "2913"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.4.name": "Last-Modified"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.4.value": "Sat, 23 Nov 2019 23:35:12 GMT"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.5.name": "Connection"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.5.value": "close"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.6.name": "ETag"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.6.value": ""5dd9c230-b61""
+ "endpoints.0.details.httpTransactions.0.responseHeaders.7.name": "Accept-Ranges"
+ "endpoints.0.details.httpTransactions.0.responseHeaders.7.value": "bytes"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.0": "Server: nginx/1.14.0 (Ubuntu)"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.1": "Date: Sat, 21 Dec 2019 20:11:44 GMT"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.2": "Content-Type: text/html"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.3": "Content-Length: 2913"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.4": "Last-Modified: Sat, 23 Nov 2019 23:35:12 GMT"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.5": "Connection: close"
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.6": "ETag: "5dd9c230-b61""
+ "endpoints.0.details.httpTransactions.0.responseHeadersRaw.7": "Accept-Ranges: bytes"
+ "endpoints.0.details.httpTransactions.0.responseLine": "HTTP/1.1 200 OK"
+ "endpoints.0.details.httpTransactions.0.statusCode": 200
+ "endpoints.0.details.implementsTLS13MandatoryCS": true
+ "endpoints.0.details.logjam": false
+ "endpoints.0.details.miscIntolerance": 0
+ "endpoints.0.details.namedGroups.list.0.bits": 256
+ "endpoints.0.details.namedGroups.list.0.id": 29
+ "endpoints.0.details.namedGroups.list.0.name": "x25519"
+ "endpoints.0.details.namedGroups.list.0.namedGroupType": "EC"
+ "endpoints.0.details.namedGroups.list.1.bits": 256
+ "endpoints.0.details.namedGroups.list.1.id": 23
+ "endpoints.0.details.namedGroups.list.1.name": "secp256r1"
+ "endpoints.0.details.namedGroups.list.1.namedGroupType": "EC"
+ "endpoints.0.details.namedGroups.list.2.bits": 224
+ "endpoints.0.details.namedGroups.list.2.id": 30
+ "endpoints.0.details.namedGroups.list.2.name": "x448"
+ "endpoints.0.details.namedGroups.list.2.namedGroupType": "EC"
+ "endpoints.0.details.namedGroups.list.3.bits": 521
+ "endpoints.0.details.namedGroups.list.3.id": 25
+ "endpoints.0.details.namedGroups.list.3.name": "secp521r1"
+ "endpoints.0.details.namedGroups.list.3.namedGroupType": "EC"
+ "endpoints.0.details.namedGroups.list.4.bits": 384
+ "endpoints.0.details.namedGroups.list.4.id": 24
+ "endpoints.0.details.namedGroups.list.4.name": "secp384r1"
+ "endpoints.0.details.namedGroups.list.4.namedGroupType": "EC"
+ "endpoints.0.details.namedGroups.preference": true
+ "endpoints.0.details.nonPrefixDelegation": true
+ "endpoints.0.details.npnProtocols": "http/1.1"
+ "endpoints.0.details.ocspStapling": true
+ "endpoints.0.details.openSSLLuckyMinus20": 1
+ "endpoints.0.details.openSslCcs": 1
+ "endpoints.0.details.poodle": false
+ "endpoints.0.details.poodleTls": 1
+ "endpoints.0.details.prefixDelegation": false
+ "endpoints.0.details.protocolIntolerance": 0
+ "endpoints.0.details.protocols.0.id": 771
+ "endpoints.0.details.protocols.0.name": "TLS"
+ "endpoints.0.details.protocols.0.version": "1.2"
+ "endpoints.0.details.protocols.1.id": 772
+ "endpoints.0.details.protocols.1.name": "TLS"
+ "endpoints.0.details.protocols.1.version": "1.3"
+ "endpoints.0.details.rc4Only": false
+ "endpoints.0.details.rc4WithModern": false
+ "endpoints.0.details.renegSupport": 2
+ "endpoints.0.details.serverSignature": "nginx/1.14.0 (Ubuntu)"
+ "endpoints.0.details.sessionResumption": 1
+ "endpoints.0.details.sessionTickets": 1
+ "endpoints.0.details.sims.results.0.attempts": 0
+ "endpoints.0.details.sims.results.0.client.id": 56
+ "endpoints.0.details.sims.results.0.client.isReference": false
+ "endpoints.0.details.sims.results.0.client.name": "Android"
+ "endpoints.0.details.sims.results.0.client.version": "2.3.7"
+ "endpoints.0.details.sims.results.0.errorCode": 1
+ "endpoints.0.details.sims.results.0.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.1.attempts": 0
+ "endpoints.0.details.sims.results.1.client.id": 58
+ "endpoints.0.details.sims.results.1.client.isReference": false
+ "endpoints.0.details.sims.results.1.client.name": "Android"
+ "endpoints.0.details.sims.results.1.client.version": "4.0.4"
+ "endpoints.0.details.sims.results.1.errorCode": 1
+ "endpoints.0.details.sims.results.1.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.10.attempts": 1
+ "endpoints.0.details.sims.results.10.client.id": 157
+ "endpoints.0.details.sims.results.10.client.isReference": false
+ "endpoints.0.details.sims.results.10.client.name": "Android"
+ "endpoints.0.details.sims.results.10.client.version": "8.1"
+ "endpoints.0.details.sims.results.10.errorCode": 0
+ "endpoints.0.details.sims.results.10.kxStrength": 3072
+ "endpoints.0.details.sims.results.10.kxType": "ECDH"
+ "endpoints.0.details.sims.results.10.namedGroupBits": 256
+ "endpoints.0.details.sims.results.10.namedGroupId": 29
+ "endpoints.0.details.sims.results.10.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.10.protocolId": 772
+ "endpoints.0.details.sims.results.10.suiteId": 4866
+ "endpoints.0.details.sims.results.10.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.11.attempts": 1
+ "endpoints.0.details.sims.results.11.client.id": 158
+ "endpoints.0.details.sims.results.11.client.isReference": false
+ "endpoints.0.details.sims.results.11.client.name": "Android"
+ "endpoints.0.details.sims.results.11.client.version": "9.0"
+ "endpoints.0.details.sims.results.11.errorCode": 0
+ "endpoints.0.details.sims.results.11.kxStrength": 3072
+ "endpoints.0.details.sims.results.11.kxType": "ECDH"
+ "endpoints.0.details.sims.results.11.namedGroupBits": 256
+ "endpoints.0.details.sims.results.11.namedGroupId": 29
+ "endpoints.0.details.sims.results.11.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.11.protocolId": 772
+ "endpoints.0.details.sims.results.11.suiteId": 4866
+ "endpoints.0.details.sims.results.11.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.12.attempts": 0
+ "endpoints.0.details.sims.results.12.client.id": 94
+ "endpoints.0.details.sims.results.12.client.isReference": false
+ "endpoints.0.details.sims.results.12.client.name": "Baidu"
+ "endpoints.0.details.sims.results.12.client.version": "Jan 2015"
+ "endpoints.0.details.sims.results.12.errorCode": 1
+ "endpoints.0.details.sims.results.12.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.13.attempts": 1
+ "endpoints.0.details.sims.results.13.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.13.client.id": 91
+ "endpoints.0.details.sims.results.13.client.isReference": false
+ "endpoints.0.details.sims.results.13.client.name": "BingPreview"
+ "endpoints.0.details.sims.results.13.client.version": "Jan 2015"
+ "endpoints.0.details.sims.results.13.errorCode": 0
+ "endpoints.0.details.sims.results.13.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.13.keySize": 2048
+ "endpoints.0.details.sims.results.13.kxStrength": 3072
+ "endpoints.0.details.sims.results.13.kxType": "ECDH"
+ "endpoints.0.details.sims.results.13.namedGroupBits": 256
+ "endpoints.0.details.sims.results.13.namedGroupId": 23
+ "endpoints.0.details.sims.results.13.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.13.protocolId": 771
+ "endpoints.0.details.sims.results.13.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.13.suiteId": 49199
+ "endpoints.0.details.sims.results.13.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.14.attempts": 1
+ "endpoints.0.details.sims.results.14.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.14.client.id": 136
+ "endpoints.0.details.sims.results.14.client.isReference": false
+ "endpoints.0.details.sims.results.14.client.name": "Chrome"
+ "endpoints.0.details.sims.results.14.client.platform": "XP SP3"
+ "endpoints.0.details.sims.results.14.client.version": "49"
+ "endpoints.0.details.sims.results.14.errorCode": 0
+ "endpoints.0.details.sims.results.14.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.14.keySize": 2048
+ "endpoints.0.details.sims.results.14.kxStrength": 3072
+ "endpoints.0.details.sims.results.14.kxType": "ECDH"
+ "endpoints.0.details.sims.results.14.namedGroupBits": 256
+ "endpoints.0.details.sims.results.14.namedGroupId": 23
+ "endpoints.0.details.sims.results.14.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.14.protocolId": 771
+ "endpoints.0.details.sims.results.14.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.14.suiteId": 49199
+ "endpoints.0.details.sims.results.14.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.15.attempts": 1
+ "endpoints.0.details.sims.results.15.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.15.client.id": 152
+ "endpoints.0.details.sims.results.15.client.isReference": true
+ "endpoints.0.details.sims.results.15.client.name": "Chrome"
+ "endpoints.0.details.sims.results.15.client.platform": "Win 7"
+ "endpoints.0.details.sims.results.15.client.version": "69"
+ "endpoints.0.details.sims.results.15.errorCode": 0
+ "endpoints.0.details.sims.results.15.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.15.keySize": 2048
+ "endpoints.0.details.sims.results.15.kxStrength": 3072
+ "endpoints.0.details.sims.results.15.kxType": "ECDH"
+ "endpoints.0.details.sims.results.15.namedGroupBits": 256
+ "endpoints.0.details.sims.results.15.namedGroupId": 29
+ "endpoints.0.details.sims.results.15.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.15.protocolId": 771
+ "endpoints.0.details.sims.results.15.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.15.suiteId": 49199
+ "endpoints.0.details.sims.results.15.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.16.attempts": 1
+ "endpoints.0.details.sims.results.16.client.id": 153
+ "endpoints.0.details.sims.results.16.client.isReference": false
+ "endpoints.0.details.sims.results.16.client.name": "Chrome"
+ "endpoints.0.details.sims.results.16.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.16.client.version": "70"
+ "endpoints.0.details.sims.results.16.errorCode": 0
+ "endpoints.0.details.sims.results.16.kxStrength": 3072
+ "endpoints.0.details.sims.results.16.kxType": "ECDH"
+ "endpoints.0.details.sims.results.16.namedGroupBits": 256
+ "endpoints.0.details.sims.results.16.namedGroupId": 29
+ "endpoints.0.details.sims.results.16.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.16.protocolId": 772
+ "endpoints.0.details.sims.results.16.suiteId": 4866
+ "endpoints.0.details.sims.results.16.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.17.attempts": 1
+ "endpoints.0.details.sims.results.17.client.id": 154
+ "endpoints.0.details.sims.results.17.client.isReference": true
+ "endpoints.0.details.sims.results.17.client.name": "Chrome"
+ "endpoints.0.details.sims.results.17.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.17.client.version": "75"
+ "endpoints.0.details.sims.results.17.errorCode": 0
+ "endpoints.0.details.sims.results.17.kxStrength": 3072
+ "endpoints.0.details.sims.results.17.kxType": "ECDH"
+ "endpoints.0.details.sims.results.17.namedGroupBits": 256
+ "endpoints.0.details.sims.results.17.namedGroupId": 29
+ "endpoints.0.details.sims.results.17.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.17.protocolId": 772
+ "endpoints.0.details.sims.results.17.suiteId": 4866
+ "endpoints.0.details.sims.results.17.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.18.attempts": 1
+ "endpoints.0.details.sims.results.18.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.18.client.id": 84
+ "endpoints.0.details.sims.results.18.client.isReference": false
+ "endpoints.0.details.sims.results.18.client.name": "Firefox"
+ "endpoints.0.details.sims.results.18.client.platform": "Win 7"
+ "endpoints.0.details.sims.results.18.client.version": "31.3.0 ESR"
+ "endpoints.0.details.sims.results.18.errorCode": 0
+ "endpoints.0.details.sims.results.18.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.18.keySize": 2048
+ "endpoints.0.details.sims.results.18.kxStrength": 3072
+ "endpoints.0.details.sims.results.18.kxType": "ECDH"
+ "endpoints.0.details.sims.results.18.namedGroupBits": 256
+ "endpoints.0.details.sims.results.18.namedGroupId": 23
+ "endpoints.0.details.sims.results.18.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.18.protocolId": 771
+ "endpoints.0.details.sims.results.18.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.18.suiteId": 49199
+ "endpoints.0.details.sims.results.18.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.19.attempts": 1
+ "endpoints.0.details.sims.results.19.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.19.client.id": 132
+ "endpoints.0.details.sims.results.19.client.isReference": true
+ "endpoints.0.details.sims.results.19.client.name": "Firefox"
+ "endpoints.0.details.sims.results.19.client.platform": "Win 7"
+ "endpoints.0.details.sims.results.19.client.version": "47"
+ "endpoints.0.details.sims.results.19.errorCode": 0
+ "endpoints.0.details.sims.results.19.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.19.keySize": 2048
+ "endpoints.0.details.sims.results.19.kxStrength": 3072
+ "endpoints.0.details.sims.results.19.kxType": "ECDH"
+ "endpoints.0.details.sims.results.19.namedGroupBits": 256
+ "endpoints.0.details.sims.results.19.namedGroupId": 23
+ "endpoints.0.details.sims.results.19.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.19.protocolId": 771
+ "endpoints.0.details.sims.results.19.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.19.suiteId": 49199
+ "endpoints.0.details.sims.results.19.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.2.attempts": 0
+ "endpoints.0.details.sims.results.2.client.id": 59
+ "endpoints.0.details.sims.results.2.client.isReference": false
+ "endpoints.0.details.sims.results.2.client.name": "Android"
+ "endpoints.0.details.sims.results.2.client.version": "4.1.1"
+ "endpoints.0.details.sims.results.2.errorCode": 1
+ "endpoints.0.details.sims.results.2.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.20.attempts": 1
+ "endpoints.0.details.sims.results.20.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.20.client.id": 137
+ "endpoints.0.details.sims.results.20.client.isReference": false
+ "endpoints.0.details.sims.results.20.client.name": "Firefox"
+ "endpoints.0.details.sims.results.20.client.platform": "XP SP3"
+ "endpoints.0.details.sims.results.20.client.version": "49"
+ "endpoints.0.details.sims.results.20.errorCode": 0
+ "endpoints.0.details.sims.results.20.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.20.keySize": 2048
+ "endpoints.0.details.sims.results.20.kxStrength": 3072
+ "endpoints.0.details.sims.results.20.kxType": "ECDH"
+ "endpoints.0.details.sims.results.20.namedGroupBits": 256
+ "endpoints.0.details.sims.results.20.namedGroupId": 23
+ "endpoints.0.details.sims.results.20.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.20.protocolId": 771
+ "endpoints.0.details.sims.results.20.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.20.suiteId": 49199
+ "endpoints.0.details.sims.results.20.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.21.attempts": 1
+ "endpoints.0.details.sims.results.21.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.21.client.id": 151
+ "endpoints.0.details.sims.results.21.client.isReference": true
+ "endpoints.0.details.sims.results.21.client.name": "Firefox"
+ "endpoints.0.details.sims.results.21.client.platform": "Win 7"
+ "endpoints.0.details.sims.results.21.client.version": "62"
+ "endpoints.0.details.sims.results.21.errorCode": 0
+ "endpoints.0.details.sims.results.21.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.21.keySize": 2048
+ "endpoints.0.details.sims.results.21.kxStrength": 3072
+ "endpoints.0.details.sims.results.21.kxType": "ECDH"
+ "endpoints.0.details.sims.results.21.namedGroupBits": 256
+ "endpoints.0.details.sims.results.21.namedGroupId": 29
+ "endpoints.0.details.sims.results.21.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.21.protocolId": 771
+ "endpoints.0.details.sims.results.21.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.21.suiteId": 49199
+ "endpoints.0.details.sims.results.21.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.22.attempts": 1
+ "endpoints.0.details.sims.results.22.client.id": 155
+ "endpoints.0.details.sims.results.22.client.isReference": true
+ "endpoints.0.details.sims.results.22.client.name": "Firefox"
+ "endpoints.0.details.sims.results.22.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.22.client.version": "67"
+ "endpoints.0.details.sims.results.22.errorCode": 0
+ "endpoints.0.details.sims.results.22.kxStrength": 3072
+ "endpoints.0.details.sims.results.22.kxType": "ECDH"
+ "endpoints.0.details.sims.results.22.namedGroupBits": 256
+ "endpoints.0.details.sims.results.22.namedGroupId": 29
+ "endpoints.0.details.sims.results.22.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.22.protocolId": 772
+ "endpoints.0.details.sims.results.22.suiteId": 4866
+ "endpoints.0.details.sims.results.22.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.23.attempts": 1
+ "endpoints.0.details.sims.results.23.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.23.client.id": 145
+ "endpoints.0.details.sims.results.23.client.isReference": false
+ "endpoints.0.details.sims.results.23.client.name": "Googlebot"
+ "endpoints.0.details.sims.results.23.client.version": "Feb 2018"
+ "endpoints.0.details.sims.results.23.errorCode": 0
+ "endpoints.0.details.sims.results.23.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.23.keySize": 2048
+ "endpoints.0.details.sims.results.23.kxStrength": 3072
+ "endpoints.0.details.sims.results.23.kxType": "ECDH"
+ "endpoints.0.details.sims.results.23.namedGroupBits": 256
+ "endpoints.0.details.sims.results.23.namedGroupId": 29
+ "endpoints.0.details.sims.results.23.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.23.protocolId": 771
+ "endpoints.0.details.sims.results.23.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.23.suiteId": 49199
+ "endpoints.0.details.sims.results.23.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.24.attempts": 0
+ "endpoints.0.details.sims.results.24.client.id": 100
+ "endpoints.0.details.sims.results.24.client.isReference": false
+ "endpoints.0.details.sims.results.24.client.name": "IE"
+ "endpoints.0.details.sims.results.24.client.platform": "XP"
+ "endpoints.0.details.sims.results.24.client.version": "6"
+ "endpoints.0.details.sims.results.24.errorCode": 1
+ "endpoints.0.details.sims.results.24.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.25.attempts": 0
+ "endpoints.0.details.sims.results.25.client.id": 19
+ "endpoints.0.details.sims.results.25.client.isReference": false
+ "endpoints.0.details.sims.results.25.client.name": "IE"
+ "endpoints.0.details.sims.results.25.client.platform": "Vista"
+ "endpoints.0.details.sims.results.25.client.version": "7"
+ "endpoints.0.details.sims.results.25.errorCode": 1
+ "endpoints.0.details.sims.results.25.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.26.attempts": 0
+ "endpoints.0.details.sims.results.26.client.id": 101
+ "endpoints.0.details.sims.results.26.client.isReference": false
+ "endpoints.0.details.sims.results.26.client.name": "IE"
+ "endpoints.0.details.sims.results.26.client.platform": "XP"
+ "endpoints.0.details.sims.results.26.client.version": "8"
+ "endpoints.0.details.sims.results.26.errorCode": 1
+ "endpoints.0.details.sims.results.26.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.27.attempts": 0
+ "endpoints.0.details.sims.results.27.client.id": 113
+ "endpoints.0.details.sims.results.27.client.isReference": true
+ "endpoints.0.details.sims.results.27.client.name": "IE"
+ "endpoints.0.details.sims.results.27.client.platform": "Win 7"
+ "endpoints.0.details.sims.results.27.client.version": "8-10"
+ "endpoints.0.details.sims.results.27.errorCode": 1
+ "endpoints.0.details.sims.results.27.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.28.alertCode": 40
+ "endpoints.0.details.sims.results.28.alertType": 2
+ "endpoints.0.details.sims.results.28.attempts": 1
+ "endpoints.0.details.sims.results.28.client.id": 143
+ "endpoints.0.details.sims.results.28.client.isReference": true
+ "endpoints.0.details.sims.results.28.client.name": "IE"
+ "endpoints.0.details.sims.results.28.client.platform": "Win 7"
+ "endpoints.0.details.sims.results.28.client.version": "11"
+ "endpoints.0.details.sims.results.28.errorCode": 1
+ "endpoints.0.details.sims.results.28.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.29.alertCode": 40
+ "endpoints.0.details.sims.results.29.alertType": 2
+ "endpoints.0.details.sims.results.29.attempts": 1
+ "endpoints.0.details.sims.results.29.client.id": 134
+ "endpoints.0.details.sims.results.29.client.isReference": true
+ "endpoints.0.details.sims.results.29.client.name": "IE"
+ "endpoints.0.details.sims.results.29.client.platform": "Win 8.1"
+ "endpoints.0.details.sims.results.29.client.version": "11"
+ "endpoints.0.details.sims.results.29.errorCode": 1
+ "endpoints.0.details.sims.results.29.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.3.attempts": 0
+ "endpoints.0.details.sims.results.3.client.id": 60
+ "endpoints.0.details.sims.results.3.client.isReference": false
+ "endpoints.0.details.sims.results.3.client.name": "Android"
+ "endpoints.0.details.sims.results.3.client.version": "4.2.2"
+ "endpoints.0.details.sims.results.3.errorCode": 1
+ "endpoints.0.details.sims.results.3.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.30.attempts": 0
+ "endpoints.0.details.sims.results.30.client.id": 64
+ "endpoints.0.details.sims.results.30.client.isReference": false
+ "endpoints.0.details.sims.results.30.client.name": "IE"
+ "endpoints.0.details.sims.results.30.client.platform": "Win Phone 8.0"
+ "endpoints.0.details.sims.results.30.client.version": "10"
+ "endpoints.0.details.sims.results.30.errorCode": 1
+ "endpoints.0.details.sims.results.30.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.31.alertCode": 40
+ "endpoints.0.details.sims.results.31.alertType": 2
+ "endpoints.0.details.sims.results.31.attempts": 1
+ "endpoints.0.details.sims.results.31.client.id": 65
+ "endpoints.0.details.sims.results.31.client.isReference": true
+ "endpoints.0.details.sims.results.31.client.name": "IE"
+ "endpoints.0.details.sims.results.31.client.platform": "Win Phone 8.1"
+ "endpoints.0.details.sims.results.31.client.version": "11"
+ "endpoints.0.details.sims.results.31.errorCode": 1
+ "endpoints.0.details.sims.results.31.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.32.alertCode": 40
+ "endpoints.0.details.sims.results.32.alertType": 2
+ "endpoints.0.details.sims.results.32.attempts": 1
+ "endpoints.0.details.sims.results.32.client.id": 106
+ "endpoints.0.details.sims.results.32.client.isReference": true
+ "endpoints.0.details.sims.results.32.client.name": "IE"
+ "endpoints.0.details.sims.results.32.client.platform": "Win Phone 8.1 Update"
+ "endpoints.0.details.sims.results.32.client.version": "11"
+ "endpoints.0.details.sims.results.32.errorCode": 1
+ "endpoints.0.details.sims.results.32.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.33.attempts": 1
+ "endpoints.0.details.sims.results.33.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.33.client.id": 131
+ "endpoints.0.details.sims.results.33.client.isReference": true
+ "endpoints.0.details.sims.results.33.client.name": "IE"
+ "endpoints.0.details.sims.results.33.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.33.client.version": "11"
+ "endpoints.0.details.sims.results.33.errorCode": 0
+ "endpoints.0.details.sims.results.33.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.33.keySize": 2048
+ "endpoints.0.details.sims.results.33.kxStrength": 3072
+ "endpoints.0.details.sims.results.33.kxType": "ECDH"
+ "endpoints.0.details.sims.results.33.namedGroupBits": 256
+ "endpoints.0.details.sims.results.33.namedGroupId": 23
+ "endpoints.0.details.sims.results.33.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.33.protocolId": 771
+ "endpoints.0.details.sims.results.33.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.33.suiteId": 49199
+ "endpoints.0.details.sims.results.33.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.34.attempts": 1
+ "endpoints.0.details.sims.results.34.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.34.client.id": 144
+ "endpoints.0.details.sims.results.34.client.isReference": true
+ "endpoints.0.details.sims.results.34.client.name": "Edge"
+ "endpoints.0.details.sims.results.34.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.34.client.version": "15"
+ "endpoints.0.details.sims.results.34.errorCode": 0
+ "endpoints.0.details.sims.results.34.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.34.keySize": 2048
+ "endpoints.0.details.sims.results.34.kxStrength": 3072
+ "endpoints.0.details.sims.results.34.kxType": "ECDH"
+ "endpoints.0.details.sims.results.34.namedGroupBits": 256
+ "endpoints.0.details.sims.results.34.namedGroupId": 29
+ "endpoints.0.details.sims.results.34.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.34.protocolId": 771
+ "endpoints.0.details.sims.results.34.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.34.suiteId": 49199
+ "endpoints.0.details.sims.results.34.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.35.attempts": 1
+ "endpoints.0.details.sims.results.35.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.35.client.id": 159
+ "endpoints.0.details.sims.results.35.client.isReference": true
+ "endpoints.0.details.sims.results.35.client.name": "Edge"
+ "endpoints.0.details.sims.results.35.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.35.client.version": "16"
+ "endpoints.0.details.sims.results.35.errorCode": 0
+ "endpoints.0.details.sims.results.35.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.35.keySize": 2048
+ "endpoints.0.details.sims.results.35.kxStrength": 3072
+ "endpoints.0.details.sims.results.35.kxType": "ECDH"
+ "endpoints.0.details.sims.results.35.namedGroupBits": 256
+ "endpoints.0.details.sims.results.35.namedGroupId": 29
+ "endpoints.0.details.sims.results.35.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.35.protocolId": 771
+ "endpoints.0.details.sims.results.35.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.35.suiteId": 49199
+ "endpoints.0.details.sims.results.35.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.36.attempts": 1
+ "endpoints.0.details.sims.results.36.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.36.client.id": 160
+ "endpoints.0.details.sims.results.36.client.isReference": true
+ "endpoints.0.details.sims.results.36.client.name": "Edge"
+ "endpoints.0.details.sims.results.36.client.platform": "Win 10"
+ "endpoints.0.details.sims.results.36.client.version": "18"
+ "endpoints.0.details.sims.results.36.errorCode": 0
+ "endpoints.0.details.sims.results.36.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.36.keySize": 2048
+ "endpoints.0.details.sims.results.36.kxStrength": 3072
+ "endpoints.0.details.sims.results.36.kxType": "ECDH"
+ "endpoints.0.details.sims.results.36.namedGroupBits": 256
+ "endpoints.0.details.sims.results.36.namedGroupId": 29
+ "endpoints.0.details.sims.results.36.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.36.protocolId": 771
+ "endpoints.0.details.sims.results.36.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.36.suiteId": 49199
+ "endpoints.0.details.sims.results.36.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.37.attempts": 1
+ "endpoints.0.details.sims.results.37.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.37.client.id": 120
+ "endpoints.0.details.sims.results.37.client.isReference": true
+ "endpoints.0.details.sims.results.37.client.name": "Edge"
+ "endpoints.0.details.sims.results.37.client.platform": "Win Phone 10"
+ "endpoints.0.details.sims.results.37.client.version": "13"
+ "endpoints.0.details.sims.results.37.errorCode": 0
+ "endpoints.0.details.sims.results.37.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.37.keySize": 2048
+ "endpoints.0.details.sims.results.37.kxStrength": 3072
+ "endpoints.0.details.sims.results.37.kxType": "ECDH"
+ "endpoints.0.details.sims.results.37.namedGroupBits": 256
+ "endpoints.0.details.sims.results.37.namedGroupId": 23
+ "endpoints.0.details.sims.results.37.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.37.protocolId": 771
+ "endpoints.0.details.sims.results.37.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.37.suiteId": 49199
+ "endpoints.0.details.sims.results.37.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.38.attempts": 0
+ "endpoints.0.details.sims.results.38.client.id": 25
+ "endpoints.0.details.sims.results.38.client.isReference": false
+ "endpoints.0.details.sims.results.38.client.name": "Java"
+ "endpoints.0.details.sims.results.38.client.version": "6u45"
+ "endpoints.0.details.sims.results.38.errorCode": 1
+ "endpoints.0.details.sims.results.38.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.39.attempts": 0
+ "endpoints.0.details.sims.results.39.client.id": 26
+ "endpoints.0.details.sims.results.39.client.isReference": false
+ "endpoints.0.details.sims.results.39.client.name": "Java"
+ "endpoints.0.details.sims.results.39.client.version": "7u25"
+ "endpoints.0.details.sims.results.39.errorCode": 1
+ "endpoints.0.details.sims.results.39.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.4.attempts": 0
+ "endpoints.0.details.sims.results.4.client.id": 61
+ "endpoints.0.details.sims.results.4.client.isReference": false
+ "endpoints.0.details.sims.results.4.client.name": "Android"
+ "endpoints.0.details.sims.results.4.client.version": "4.3"
+ "endpoints.0.details.sims.results.4.errorCode": 1
+ "endpoints.0.details.sims.results.4.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.40.attempts": 1
+ "endpoints.0.details.sims.results.40.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.40.client.id": 147
+ "endpoints.0.details.sims.results.40.client.isReference": false
+ "endpoints.0.details.sims.results.40.client.name": "Java"
+ "endpoints.0.details.sims.results.40.client.version": "8u161"
+ "endpoints.0.details.sims.results.40.errorCode": 0
+ "endpoints.0.details.sims.results.40.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.40.keySize": 2048
+ "endpoints.0.details.sims.results.40.kxStrength": 3072
+ "endpoints.0.details.sims.results.40.kxType": "ECDH"
+ "endpoints.0.details.sims.results.40.namedGroupBits": 256
+ "endpoints.0.details.sims.results.40.namedGroupId": 23
+ "endpoints.0.details.sims.results.40.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.40.protocolId": 771
+ "endpoints.0.details.sims.results.40.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.40.suiteId": 49199
+ "endpoints.0.details.sims.results.40.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.41.attempts": 1
+ "endpoints.0.details.sims.results.41.client.id": 162
+ "endpoints.0.details.sims.results.41.client.isReference": false
+ "endpoints.0.details.sims.results.41.client.name": "Java"
+ "endpoints.0.details.sims.results.41.client.version": "11.0.3"
+ "endpoints.0.details.sims.results.41.errorCode": 0
+ "endpoints.0.details.sims.results.41.kxStrength": 3072
+ "endpoints.0.details.sims.results.41.kxType": "ECDH"
+ "endpoints.0.details.sims.results.41.namedGroupBits": 256
+ "endpoints.0.details.sims.results.41.namedGroupId": 23
+ "endpoints.0.details.sims.results.41.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.41.protocolId": 772
+ "endpoints.0.details.sims.results.41.suiteId": 4866
+ "endpoints.0.details.sims.results.41.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.42.attempts": 1
+ "endpoints.0.details.sims.results.42.client.id": 163
+ "endpoints.0.details.sims.results.42.client.isReference": false
+ "endpoints.0.details.sims.results.42.client.name": "Java"
+ "endpoints.0.details.sims.results.42.client.version": "12.0.1"
+ "endpoints.0.details.sims.results.42.errorCode": 0
+ "endpoints.0.details.sims.results.42.kxStrength": 3072
+ "endpoints.0.details.sims.results.42.kxType": "ECDH"
+ "endpoints.0.details.sims.results.42.namedGroupBits": 256
+ "endpoints.0.details.sims.results.42.namedGroupId": 23
+ "endpoints.0.details.sims.results.42.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.42.protocolId": 772
+ "endpoints.0.details.sims.results.42.suiteId": 4866
+ "endpoints.0.details.sims.results.42.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.43.attempts": 0
+ "endpoints.0.details.sims.results.43.client.id": 27
+ "endpoints.0.details.sims.results.43.client.isReference": false
+ "endpoints.0.details.sims.results.43.client.name": "OpenSSL"
+ "endpoints.0.details.sims.results.43.client.version": "0.9.8y"
+ "endpoints.0.details.sims.results.43.errorCode": 1
+ "endpoints.0.details.sims.results.43.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.44.attempts": 1
+ "endpoints.0.details.sims.results.44.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.44.client.id": 99
+ "endpoints.0.details.sims.results.44.client.isReference": true
+ "endpoints.0.details.sims.results.44.client.name": "OpenSSL"
+ "endpoints.0.details.sims.results.44.client.version": "1.0.1l"
+ "endpoints.0.details.sims.results.44.errorCode": 0
+ "endpoints.0.details.sims.results.44.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.44.keySize": 2048
+ "endpoints.0.details.sims.results.44.kxStrength": 3072
+ "endpoints.0.details.sims.results.44.kxType": "ECDH"
+ "endpoints.0.details.sims.results.44.namedGroupBits": 256
+ "endpoints.0.details.sims.results.44.namedGroupId": 23
+ "endpoints.0.details.sims.results.44.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.44.protocolId": 771
+ "endpoints.0.details.sims.results.44.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.44.suiteId": 49199
+ "endpoints.0.details.sims.results.44.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.45.attempts": 1
+ "endpoints.0.details.sims.results.45.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.45.client.id": 164
+ "endpoints.0.details.sims.results.45.client.isReference": true
+ "endpoints.0.details.sims.results.45.client.name": "OpenSSL"
+ "endpoints.0.details.sims.results.45.client.version": "1.0.2s"
+ "endpoints.0.details.sims.results.45.errorCode": 0
+ "endpoints.0.details.sims.results.45.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.45.keySize": 2048
+ "endpoints.0.details.sims.results.45.kxStrength": 3072
+ "endpoints.0.details.sims.results.45.kxType": "ECDH"
+ "endpoints.0.details.sims.results.45.namedGroupBits": 256
+ "endpoints.0.details.sims.results.45.namedGroupId": 23
+ "endpoints.0.details.sims.results.45.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.45.protocolId": 771
+ "endpoints.0.details.sims.results.45.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.45.suiteId": 49199
+ "endpoints.0.details.sims.results.45.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.46.attempts": 1
+ "endpoints.0.details.sims.results.46.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.46.client.id": 169
+ "endpoints.0.details.sims.results.46.client.isReference": true
+ "endpoints.0.details.sims.results.46.client.name": "OpenSSL"
+ "endpoints.0.details.sims.results.46.client.version": "1.1.0k"
+ "endpoints.0.details.sims.results.46.errorCode": 0
+ "endpoints.0.details.sims.results.46.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.46.keySize": 2048
+ "endpoints.0.details.sims.results.46.kxStrength": 3072
+ "endpoints.0.details.sims.results.46.kxType": "ECDH"
+ "endpoints.0.details.sims.results.46.namedGroupBits": 256
+ "endpoints.0.details.sims.results.46.namedGroupId": 29
+ "endpoints.0.details.sims.results.46.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.46.protocolId": 771
+ "endpoints.0.details.sims.results.46.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.46.suiteId": 49199
+ "endpoints.0.details.sims.results.46.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.47.attempts": 1
+ "endpoints.0.details.sims.results.47.client.id": 165
+ "endpoints.0.details.sims.results.47.client.isReference": true
+ "endpoints.0.details.sims.results.47.client.name": "OpenSSL"
+ "endpoints.0.details.sims.results.47.client.version": "1.1.1c"
+ "endpoints.0.details.sims.results.47.errorCode": 0
+ "endpoints.0.details.sims.results.47.kxStrength": 3072
+ "endpoints.0.details.sims.results.47.kxType": "ECDH"
+ "endpoints.0.details.sims.results.47.namedGroupBits": 256
+ "endpoints.0.details.sims.results.47.namedGroupId": 29
+ "endpoints.0.details.sims.results.47.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.47.protocolId": 772
+ "endpoints.0.details.sims.results.47.suiteId": 4866
+ "endpoints.0.details.sims.results.47.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.48.attempts": 0
+ "endpoints.0.details.sims.results.48.client.id": 32
+ "endpoints.0.details.sims.results.48.client.isReference": false
+ "endpoints.0.details.sims.results.48.client.name": "Safari"
+ "endpoints.0.details.sims.results.48.client.platform": "OS X 10.6.8"
+ "endpoints.0.details.sims.results.48.client.version": "5.1.9"
+ "endpoints.0.details.sims.results.48.errorCode": 1
+ "endpoints.0.details.sims.results.48.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.49.alertCode": 40
+ "endpoints.0.details.sims.results.49.alertType": 2
+ "endpoints.0.details.sims.results.49.attempts": 1
+ "endpoints.0.details.sims.results.49.client.id": 33
+ "endpoints.0.details.sims.results.49.client.isReference": false
+ "endpoints.0.details.sims.results.49.client.name": "Safari"
+ "endpoints.0.details.sims.results.49.client.platform": "iOS 6.0.1"
+ "endpoints.0.details.sims.results.49.client.version": "6"
+ "endpoints.0.details.sims.results.49.errorCode": 1
+ "endpoints.0.details.sims.results.49.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.5.attempts": 1
+ "endpoints.0.details.sims.results.5.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.5.client.id": 62
+ "endpoints.0.details.sims.results.5.client.isReference": false
+ "endpoints.0.details.sims.results.5.client.name": "Android"
+ "endpoints.0.details.sims.results.5.client.version": "4.4.2"
+ "endpoints.0.details.sims.results.5.errorCode": 0
+ "endpoints.0.details.sims.results.5.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.5.keySize": 2048
+ "endpoints.0.details.sims.results.5.kxStrength": 3072
+ "endpoints.0.details.sims.results.5.kxType": "ECDH"
+ "endpoints.0.details.sims.results.5.namedGroupBits": 256
+ "endpoints.0.details.sims.results.5.namedGroupId": 23
+ "endpoints.0.details.sims.results.5.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.5.protocolId": 771
+ "endpoints.0.details.sims.results.5.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.5.suiteId": 49199
+ "endpoints.0.details.sims.results.5.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.50.attempts": 0
+ "endpoints.0.details.sims.results.50.client.id": 34
+ "endpoints.0.details.sims.results.50.client.isReference": true
+ "endpoints.0.details.sims.results.50.client.name": "Safari"
+ "endpoints.0.details.sims.results.50.client.platform": "OS X 10.8.4"
+ "endpoints.0.details.sims.results.50.client.version": "6.0.4"
+ "endpoints.0.details.sims.results.50.errorCode": 1
+ "endpoints.0.details.sims.results.50.errorMessage": "Protocol mismatch (not simulated)"
+ "endpoints.0.details.sims.results.51.alertCode": 40
+ "endpoints.0.details.sims.results.51.alertType": 2
+ "endpoints.0.details.sims.results.51.attempts": 1
+ "endpoints.0.details.sims.results.51.client.id": 63
+ "endpoints.0.details.sims.results.51.client.isReference": true
+ "endpoints.0.details.sims.results.51.client.name": "Safari"
+ "endpoints.0.details.sims.results.51.client.platform": "iOS 7.1"
+ "endpoints.0.details.sims.results.51.client.version": "7"
+ "endpoints.0.details.sims.results.51.errorCode": 1
+ "endpoints.0.details.sims.results.51.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.52.alertCode": 40
+ "endpoints.0.details.sims.results.52.alertType": 2
+ "endpoints.0.details.sims.results.52.attempts": 1
+ "endpoints.0.details.sims.results.52.client.id": 35
+ "endpoints.0.details.sims.results.52.client.isReference": true
+ "endpoints.0.details.sims.results.52.client.name": "Safari"
+ "endpoints.0.details.sims.results.52.client.platform": "OS X 10.9"
+ "endpoints.0.details.sims.results.52.client.version": "7"
+ "endpoints.0.details.sims.results.52.errorCode": 1
+ "endpoints.0.details.sims.results.52.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.53.alertCode": 40
+ "endpoints.0.details.sims.results.53.alertType": 2
+ "endpoints.0.details.sims.results.53.attempts": 1
+ "endpoints.0.details.sims.results.53.client.id": 85
+ "endpoints.0.details.sims.results.53.client.isReference": true
+ "endpoints.0.details.sims.results.53.client.name": "Safari"
+ "endpoints.0.details.sims.results.53.client.platform": "iOS 8.4"
+ "endpoints.0.details.sims.results.53.client.version": "8"
+ "endpoints.0.details.sims.results.53.errorCode": 1
+ "endpoints.0.details.sims.results.53.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.54.alertCode": 40
+ "endpoints.0.details.sims.results.54.alertType": 2
+ "endpoints.0.details.sims.results.54.attempts": 1
+ "endpoints.0.details.sims.results.54.client.id": 87
+ "endpoints.0.details.sims.results.54.client.isReference": true
+ "endpoints.0.details.sims.results.54.client.name": "Safari"
+ "endpoints.0.details.sims.results.54.client.platform": "OS X 10.10"
+ "endpoints.0.details.sims.results.54.client.version": "8"
+ "endpoints.0.details.sims.results.54.errorCode": 1
+ "endpoints.0.details.sims.results.54.errorMessage": "Server sent fatal alert: handshake_failure"
+ "endpoints.0.details.sims.results.55.attempts": 1
+ "endpoints.0.details.sims.results.55.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.55.client.id": 114
+ "endpoints.0.details.sims.results.55.client.isReference": true
+ "endpoints.0.details.sims.results.55.client.name": "Safari"
+ "endpoints.0.details.sims.results.55.client.platform": "iOS 9"
+ "endpoints.0.details.sims.results.55.client.version": "9"
+ "endpoints.0.details.sims.results.55.errorCode": 0
+ "endpoints.0.details.sims.results.55.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.55.keySize": 2048
+ "endpoints.0.details.sims.results.55.kxStrength": 3072
+ "endpoints.0.details.sims.results.55.kxType": "ECDH"
+ "endpoints.0.details.sims.results.55.namedGroupBits": 256
+ "endpoints.0.details.sims.results.55.namedGroupId": 23
+ "endpoints.0.details.sims.results.55.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.55.protocolId": 771
+ "endpoints.0.details.sims.results.55.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.55.suiteId": 49199
+ "endpoints.0.details.sims.results.55.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.56.attempts": 1
+ "endpoints.0.details.sims.results.56.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.56.client.id": 111
+ "endpoints.0.details.sims.results.56.client.isReference": true
+ "endpoints.0.details.sims.results.56.client.name": "Safari"
+ "endpoints.0.details.sims.results.56.client.platform": "OS X 10.11"
+ "endpoints.0.details.sims.results.56.client.version": "9"
+ "endpoints.0.details.sims.results.56.errorCode": 0
+ "endpoints.0.details.sims.results.56.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.56.keySize": 2048
+ "endpoints.0.details.sims.results.56.kxStrength": 3072
+ "endpoints.0.details.sims.results.56.kxType": "ECDH"
+ "endpoints.0.details.sims.results.56.namedGroupBits": 256
+ "endpoints.0.details.sims.results.56.namedGroupId": 23
+ "endpoints.0.details.sims.results.56.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.56.protocolId": 771
+ "endpoints.0.details.sims.results.56.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.56.suiteId": 49199
+ "endpoints.0.details.sims.results.56.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.57.attempts": 1
+ "endpoints.0.details.sims.results.57.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.57.client.id": 140
+ "endpoints.0.details.sims.results.57.client.isReference": true
+ "endpoints.0.details.sims.results.57.client.name": "Safari"
+ "endpoints.0.details.sims.results.57.client.platform": "iOS 10"
+ "endpoints.0.details.sims.results.57.client.version": "10"
+ "endpoints.0.details.sims.results.57.errorCode": 0
+ "endpoints.0.details.sims.results.57.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.57.keySize": 2048
+ "endpoints.0.details.sims.results.57.kxStrength": 3072
+ "endpoints.0.details.sims.results.57.kxType": "ECDH"
+ "endpoints.0.details.sims.results.57.namedGroupBits": 256
+ "endpoints.0.details.sims.results.57.namedGroupId": 23
+ "endpoints.0.details.sims.results.57.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.57.protocolId": 771
+ "endpoints.0.details.sims.results.57.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.57.suiteId": 49199
+ "endpoints.0.details.sims.results.57.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.58.attempts": 1
+ "endpoints.0.details.sims.results.58.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.58.client.id": 138
+ "endpoints.0.details.sims.results.58.client.isReference": true
+ "endpoints.0.details.sims.results.58.client.name": "Safari"
+ "endpoints.0.details.sims.results.58.client.platform": "OS X 10.12"
+ "endpoints.0.details.sims.results.58.client.version": "10"
+ "endpoints.0.details.sims.results.58.errorCode": 0
+ "endpoints.0.details.sims.results.58.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.58.keySize": 2048
+ "endpoints.0.details.sims.results.58.kxStrength": 3072
+ "endpoints.0.details.sims.results.58.kxType": "ECDH"
+ "endpoints.0.details.sims.results.58.namedGroupBits": 256
+ "endpoints.0.details.sims.results.58.namedGroupId": 23
+ "endpoints.0.details.sims.results.58.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.58.protocolId": 771
+ "endpoints.0.details.sims.results.58.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.58.suiteId": 49199
+ "endpoints.0.details.sims.results.58.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.59.attempts": 1
+ "endpoints.0.details.sims.results.59.client.id": 161
+ "endpoints.0.details.sims.results.59.client.isReference": true
+ "endpoints.0.details.sims.results.59.client.name": "Safari"
+ "endpoints.0.details.sims.results.59.client.platform": "MacOS 10.14.6 Beta"
+ "endpoints.0.details.sims.results.59.client.version": "12.1.2"
+ "endpoints.0.details.sims.results.59.errorCode": 0
+ "endpoints.0.details.sims.results.59.kxStrength": 3072
+ "endpoints.0.details.sims.results.59.kxType": "ECDH"
+ "endpoints.0.details.sims.results.59.namedGroupBits": 256
+ "endpoints.0.details.sims.results.59.namedGroupId": 29
+ "endpoints.0.details.sims.results.59.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.59.protocolId": 772
+ "endpoints.0.details.sims.results.59.suiteId": 4866
+ "endpoints.0.details.sims.results.59.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.6.attempts": 1
+ "endpoints.0.details.sims.results.6.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.6.client.id": 88
+ "endpoints.0.details.sims.results.6.client.isReference": false
+ "endpoints.0.details.sims.results.6.client.name": "Android"
+ "endpoints.0.details.sims.results.6.client.version": "5.0.0"
+ "endpoints.0.details.sims.results.6.errorCode": 0
+ "endpoints.0.details.sims.results.6.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.6.keySize": 2048
+ "endpoints.0.details.sims.results.6.kxStrength": 3072
+ "endpoints.0.details.sims.results.6.kxType": "ECDH"
+ "endpoints.0.details.sims.results.6.namedGroupBits": 256
+ "endpoints.0.details.sims.results.6.namedGroupId": 23
+ "endpoints.0.details.sims.results.6.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.6.protocolId": 771
+ "endpoints.0.details.sims.results.6.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.6.suiteId": 49199
+ "endpoints.0.details.sims.results.6.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.60.attempts": 1
+ "endpoints.0.details.sims.results.60.client.id": 166
+ "endpoints.0.details.sims.results.60.client.isReference": true
+ "endpoints.0.details.sims.results.60.client.name": "Safari"
+ "endpoints.0.details.sims.results.60.client.platform": "iOS 12.3.1"
+ "endpoints.0.details.sims.results.60.client.version": "12.1.1"
+ "endpoints.0.details.sims.results.60.errorCode": 0
+ "endpoints.0.details.sims.results.60.kxStrength": 3072
+ "endpoints.0.details.sims.results.60.kxType": "ECDH"
+ "endpoints.0.details.sims.results.60.namedGroupBits": 256
+ "endpoints.0.details.sims.results.60.namedGroupId": 29
+ "endpoints.0.details.sims.results.60.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.60.protocolId": 772
+ "endpoints.0.details.sims.results.60.suiteId": 4866
+ "endpoints.0.details.sims.results.60.suiteName": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.sims.results.61.attempts": 1
+ "endpoints.0.details.sims.results.61.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.61.client.id": 112
+ "endpoints.0.details.sims.results.61.client.isReference": true
+ "endpoints.0.details.sims.results.61.client.name": "Apple ATS"
+ "endpoints.0.details.sims.results.61.client.platform": "iOS 9"
+ "endpoints.0.details.sims.results.61.client.version": "9"
+ "endpoints.0.details.sims.results.61.errorCode": 0
+ "endpoints.0.details.sims.results.61.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.61.keySize": 2048
+ "endpoints.0.details.sims.results.61.kxStrength": 3072
+ "endpoints.0.details.sims.results.61.kxType": "ECDH"
+ "endpoints.0.details.sims.results.61.namedGroupBits": 256
+ "endpoints.0.details.sims.results.61.namedGroupId": 23
+ "endpoints.0.details.sims.results.61.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.61.protocolId": 771
+ "endpoints.0.details.sims.results.61.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.61.suiteId": 49199
+ "endpoints.0.details.sims.results.61.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.62.attempts": 1
+ "endpoints.0.details.sims.results.62.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.62.client.id": 92
+ "endpoints.0.details.sims.results.62.client.isReference": false
+ "endpoints.0.details.sims.results.62.client.name": "Yahoo Slurp"
+ "endpoints.0.details.sims.results.62.client.version": "Jan 2015"
+ "endpoints.0.details.sims.results.62.errorCode": 0
+ "endpoints.0.details.sims.results.62.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.62.keySize": 2048
+ "endpoints.0.details.sims.results.62.kxStrength": 3072
+ "endpoints.0.details.sims.results.62.kxType": "ECDH"
+ "endpoints.0.details.sims.results.62.namedGroupBits": 256
+ "endpoints.0.details.sims.results.62.namedGroupId": 23
+ "endpoints.0.details.sims.results.62.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.62.protocolId": 771
+ "endpoints.0.details.sims.results.62.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.62.suiteId": 49199
+ "endpoints.0.details.sims.results.62.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.63.attempts": 1
+ "endpoints.0.details.sims.results.63.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.63.client.id": 93
+ "endpoints.0.details.sims.results.63.client.isReference": false
+ "endpoints.0.details.sims.results.63.client.name": "YandexBot"
+ "endpoints.0.details.sims.results.63.client.version": "Jan 2015"
+ "endpoints.0.details.sims.results.63.errorCode": 0
+ "endpoints.0.details.sims.results.63.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.63.keySize": 2048
+ "endpoints.0.details.sims.results.63.kxStrength": 3072
+ "endpoints.0.details.sims.results.63.kxType": "ECDH"
+ "endpoints.0.details.sims.results.63.namedGroupBits": 256
+ "endpoints.0.details.sims.results.63.namedGroupId": 23
+ "endpoints.0.details.sims.results.63.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.63.protocolId": 771
+ "endpoints.0.details.sims.results.63.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.63.suiteId": 49199
+ "endpoints.0.details.sims.results.63.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.7.attempts": 1
+ "endpoints.0.details.sims.results.7.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.7.client.id": 129
+ "endpoints.0.details.sims.results.7.client.isReference": false
+ "endpoints.0.details.sims.results.7.client.name": "Android"
+ "endpoints.0.details.sims.results.7.client.version": "6.0"
+ "endpoints.0.details.sims.results.7.errorCode": 0
+ "endpoints.0.details.sims.results.7.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.7.keySize": 2048
+ "endpoints.0.details.sims.results.7.kxStrength": 3072
+ "endpoints.0.details.sims.results.7.kxType": "ECDH"
+ "endpoints.0.details.sims.results.7.namedGroupBits": 256
+ "endpoints.0.details.sims.results.7.namedGroupId": 23
+ "endpoints.0.details.sims.results.7.namedGroupName": "secp256r1"
+ "endpoints.0.details.sims.results.7.protocolId": 771
+ "endpoints.0.details.sims.results.7.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.7.suiteId": 49199
+ "endpoints.0.details.sims.results.7.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.8.attempts": 1
+ "endpoints.0.details.sims.results.8.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.8.client.id": 167
+ "endpoints.0.details.sims.results.8.client.isReference": false
+ "endpoints.0.details.sims.results.8.client.name": "Android"
+ "endpoints.0.details.sims.results.8.client.version": "7.0"
+ "endpoints.0.details.sims.results.8.errorCode": 0
+ "endpoints.0.details.sims.results.8.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.8.keySize": 2048
+ "endpoints.0.details.sims.results.8.kxStrength": 3072
+ "endpoints.0.details.sims.results.8.kxType": "ECDH"
+ "endpoints.0.details.sims.results.8.namedGroupBits": 256
+ "endpoints.0.details.sims.results.8.namedGroupId": 29
+ "endpoints.0.details.sims.results.8.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.8.protocolId": 771
+ "endpoints.0.details.sims.results.8.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.8.suiteId": 49199
+ "endpoints.0.details.sims.results.8.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sims.results.9.attempts": 1
+ "endpoints.0.details.sims.results.9.certChainId": "6d8c17bd436fe58f7d89cf9fbc4ed50c57fb6b2d5dda93cfd3a40095233d51b9"
+ "endpoints.0.details.sims.results.9.client.id": 168
+ "endpoints.0.details.sims.results.9.client.isReference": false
+ "endpoints.0.details.sims.results.9.client.name": "Android"
+ "endpoints.0.details.sims.results.9.client.version": "8.0"
+ "endpoints.0.details.sims.results.9.errorCode": 0
+ "endpoints.0.details.sims.results.9.keyAlg": "RSA"
+ "endpoints.0.details.sims.results.9.keySize": 2048
+ "endpoints.0.details.sims.results.9.kxStrength": 3072
+ "endpoints.0.details.sims.results.9.kxType": "ECDH"
+ "endpoints.0.details.sims.results.9.namedGroupBits": 256
+ "endpoints.0.details.sims.results.9.namedGroupId": 29
+ "endpoints.0.details.sims.results.9.namedGroupName": "x25519"
+ "endpoints.0.details.sims.results.9.protocolId": 771
+ "endpoints.0.details.sims.results.9.sigAlg": "SHA256withRSA"
+ "endpoints.0.details.sims.results.9.suiteId": 49199
+ "endpoints.0.details.sims.results.9.suiteName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.sleepingPoodle": 1
+ "endpoints.0.details.sniRequired": false
+ "endpoints.0.details.staplingRevocationStatus": 2
+ "endpoints.0.details.staticPkpPolicy.status": "absent"
+ "endpoints.0.details.suites.0.list.0.cipherStrength": 128
+ "endpoints.0.details.suites.0.list.0.id": 49199
+ "endpoints.0.details.suites.0.list.0.kxStrength": 3072
+ "endpoints.0.details.suites.0.list.0.kxType": "ECDH"
+ "endpoints.0.details.suites.0.list.0.name": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+ "endpoints.0.details.suites.0.list.0.namedGroupBits": 256
+ "endpoints.0.details.suites.0.list.0.namedGroupId": 29
+ "endpoints.0.details.suites.0.list.0.namedGroupName": "x25519"
+ "endpoints.0.details.suites.0.list.1.cipherStrength": 256
+ "endpoints.0.details.suites.0.list.1.id": 49200
+ "endpoints.0.details.suites.0.list.1.kxStrength": 3072
+ "endpoints.0.details.suites.0.list.1.kxType": "ECDH"
+ "endpoints.0.details.suites.0.list.1.name": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+ "endpoints.0.details.suites.0.list.1.namedGroupBits": 256
+ "endpoints.0.details.suites.0.list.1.namedGroupId": 29
+ "endpoints.0.details.suites.0.list.1.namedGroupName": "x25519"
+ "endpoints.0.details.suites.0.list.2.cipherStrength": 256
+ "endpoints.0.details.suites.0.list.2.id": 52392
+ "endpoints.0.details.suites.0.list.2.kxStrength": 3072
+ "endpoints.0.details.suites.0.list.2.kxType": "ECDH"
+ "endpoints.0.details.suites.0.list.2.name": "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+ "endpoints.0.details.suites.0.list.2.namedGroupBits": 256
+ "endpoints.0.details.suites.0.list.2.namedGroupId": 29
+ "endpoints.0.details.suites.0.list.2.namedGroupName": "x25519"
+ "endpoints.0.details.suites.0.preference": true
+ "endpoints.0.details.suites.0.protocol": 771
+ "endpoints.0.details.suites.1.list.0.cipherStrength": 256
+ "endpoints.0.details.suites.1.list.0.id": 4866
+ "endpoints.0.details.suites.1.list.0.kxStrength": 3072
+ "endpoints.0.details.suites.1.list.0.kxType": "ECDH"
+ "endpoints.0.details.suites.1.list.0.name": "TLS_AES_256_GCM_SHA384"
+ "endpoints.0.details.suites.1.list.0.namedGroupBits": 256
+ "endpoints.0.details.suites.1.list.0.namedGroupId": 29
+ "endpoints.0.details.suites.1.list.0.namedGroupName": "x25519"
+ "endpoints.0.details.suites.1.list.1.cipherStrength": 256
+ "endpoints.0.details.suites.1.list.1.id": 4867
+ "endpoints.0.details.suites.1.list.1.kxStrength": 3072
+ "endpoints.0.details.suites.1.list.1.kxType": "ECDH"
+ "endpoints.0.details.suites.1.list.1.name": "TLS_CHACHA20_POLY1305_SHA256"
+ "endpoints.0.details.suites.1.list.1.namedGroupBits": 256
+ "endpoints.0.details.suites.1.list.1.namedGroupId": 29
+ "endpoints.0.details.suites.1.list.1.namedGroupName": "x25519"
+ "endpoints.0.details.suites.1.list.2.cipherStrength": 128
+ "endpoints.0.details.suites.1.list.2.id": 4865
+ "endpoints.0.details.suites.1.list.2.kxStrength": 3072
+ "endpoints.0.details.suites.1.list.2.kxType": "ECDH"
+ "endpoints.0.details.suites.1.list.2.name": "TLS_AES_128_GCM_SHA256"
+ "endpoints.0.details.suites.1.list.2.namedGroupBits": 256
+ "endpoints.0.details.suites.1.list.2.namedGroupId": 29
+ "endpoints.0.details.suites.1.list.2.namedGroupName": "x25519"
+ "endpoints.0.details.suites.1.preference": true
+ "endpoints.0.details.suites.1.protocol": 772
+ "endpoints.0.details.supportsAead": true
+ "endpoints.0.details.supportsAlpn": true
+ "endpoints.0.details.supportsCBC": false
+ "endpoints.0.details.supportsNpn": true
+ "endpoints.0.details.supportsRc4": false
+ "endpoints.0.details.ticketbleed": 1
+ "endpoints.0.details.vulnBeast": false
+ "endpoints.0.details.zeroLengthPaddingOracle": 1
+ "endpoints.0.details.zeroRTTEnabled": 0
+ "endpoints.0.details.zombiePoodle": 1
+ "endpoints.0.duration": 37766
+ "endpoints.0.grade": "A"
+ "endpoints.0.gradeTrustIgnored": "A"
+ "endpoints.0.hasWarnings": false
+ "endpoints.0.ipAddress": "165.227.16.53"
+ "endpoints.0.isExceptional": false
+ "endpoints.0.progress": 100
+ "endpoints.0.statusMessage": "Ready"
+ "engineVersion": "1.36.3"
+ "host": "scavengers-repo.com"
+ "isPublic": false
+ "port": 443
+ "protocol": "http"
+ "startTime": 1576959101425
+ "status": "READY"
+ "testTime": 1576959139378
+]
